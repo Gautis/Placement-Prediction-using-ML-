@@ -13,7 +13,7 @@ function getLocation() {
 
         // Weather API call and data processing
         $.ajax({
-            url: "https://api.openweathermap.org/data/2.5/weather?lat=" + i + "&lon=" + j + "&APPID=a8a053c33a2d91a20ec652d0dd909980",
+            url: "https://api.openweathermap.org/data/2.5/weather?lat=" + i + "&lon=" + j + "&APPID=your api key",
             success: function(res) {
                 var weatherType = res.weather[0].main.toLowerCase();
                 switch (weatherType) {
