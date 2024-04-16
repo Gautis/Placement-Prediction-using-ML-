@@ -56,8 +56,8 @@ def visual():
 # def sms():
 #     res=cal(request.form)
 #     try:
-#         ##resp =  sendSMS('UwYs16dD3zM-DKuzZKQYolAJkoba1j0BmRGompsNRs', '9618205648', 'TXTLCL', 'Severe acceident')
-#         resp =  sendSMS('035887072099aa09c88d72891655d4c5', '7038785672', 'TXTLCL', 'Severe accident')
+#         ##resp =  sendSMS('UwYs16dD3zM-DKuzZKQYolAJkoba1j0BmRGompsNRs', 'your phone number', 'TXTLCL', 'Severe acceident')
+#         resp =  sendSMS('035887072099aa09c88d72891655d4c5', 'your phone number', 'TXTLCL', 'Severe accident')
 #         print (resp)
 #     except Exception as e: print(e)    
 #     return res
